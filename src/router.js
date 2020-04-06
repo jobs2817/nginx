@@ -6,6 +6,7 @@ import b from './components/b.vue'
 
 
 export default new router({
+  base: '/nginx/',
   mode: 'history',
   routes: [
     {
