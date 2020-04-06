@@ -8,7 +8,7 @@ import b from './components/b.vue'
 export default new router({
   mode: 'history',
   routes: [{
-    path: '/a',
+    path: '/',
     component: a
   }, {
     path: '/b',
