@@ -6,7 +6,7 @@ import b from './components/b.vue'
 console.log(process.env.BASE_URL, window.location, 'process.env.BASE_URL')
 export default new router({
   mode: 'history',
-  // base: process.env.BASE_URL,
+  base: process.env.BASE_URL,
   routes: [
     {
       path: '/',
